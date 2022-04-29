@@ -1,0 +1,31 @@
+# Follow me on Twitch: https://www.twitch.tv/kepao150
+# and Youtube: https://www.youtube.com/channel/UCbIWXgAqxcZTZAKHUinQ9zA
+# made by kepao150 (first plugin)
+
+# respawn/spawn location
+location:
+  enabled: false
+  world: world
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+
+# messages that will appear when the player respawns
+# mensagens que irão aparecer quando o player renascer
+
+# use §<color command> to make messages colored, example: "§b§lthis is an example "
+# use §<comando de cor> para fazer mensagens coloridas, exemplo: "§b§lthis is an example "
+messages:
+  enabled-msg: false
+  respawn-msg: "§f§lYou §c§ldied!"
+
+  enable-title: false
+  respawnTitle:
+    title: "§c§lYou died!"
+    sub-title: "§4don't die again"
+    fadeIn: 20
+    stay: 100
+    fadeOut: 10
+

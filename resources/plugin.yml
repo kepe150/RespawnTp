@@ -1,0 +1,16 @@
+name: RespawnTp
+version: '${project.version}'
+main: tv.twitch.kepao150.respawnTp.main
+api-version: 1.16
+authors: [ kepao150 ]
+description: on join player is teleported to one location
+commands:
+  setrespawntp:
+    description: Configura a localização do respawn
+    usage: /setrespawntp
+    permission: respawntp.admin
+
+  rtpreload:
+    description: Recarrega as configurações do plugin
+    usage: /rtpreload
+    permission-message: respawntp.admin
